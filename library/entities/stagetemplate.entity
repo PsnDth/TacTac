@@ -5,6 +5,7 @@
       "layers": [
         "f343b8b1-0e2e-4515-aeb6-41290dd5d8c5",
         "b2236f12-404a-4de8-85b2-0d3c980a0295",
+        "466d2df5-9689-4544-ba76-195dafbfb6ff",
         "51d202fc-6575-418e-81b3-cd773e8cb5e0",
         "dd493a26-f0d4-4281-baf0-2fa94dcb8814",
         "028d5f6f-c59e-48ce-b33e-bda662dd15b6",
@@ -17,6 +18,7 @@
         "8a4d91b8-2481-4d8c-8862-83becc3db4da",
         "3ef77eb4-d74c-4235-922b-b53e4a815a86",
         "1d8f8383-0219-4a94-bf5a-a9b6d7bdbe63",
+        "df02beb0-4949-4bec-910c-717d4d51b649",
         "5865eda6-0457-43f9-bf9a-de62c7bf7d23",
         "8f1526ae-f07c-4eb4-8f71-0a1a2ec6aea5",
         "57555a54-4b3e-430a-8c58-940134b6eb23",
@@ -578,6 +580,34 @@
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "IMAGE"
+    },
+    {
+      "$id": "dd0e4a21-39ee-4093-8738-ee6842664288",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "CONTAINER"
+    },
+    {
+      "$id": "852723ce-736a-4db5-ac6e-4908e63022e0",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "CONTAINER"
+    },
+    {
+      "$id": "7000154a-73ac-4029-81c9-05637b1c7c73",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "CONTAINER"
+    },
+    {
+      "$id": "81b27a7c-5f75-44fc-93c9-c090fe67e52a",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "CONTAINER"
     }
   ],
   "layers": [
@@ -1121,6 +1151,38 @@
       "pluginMetadata": {
       },
       "type": "IMAGE"
+    },
+    {
+      "$id": "df02beb0-4949-4bec-910c-717d4d51b649",
+      "hidden": false,
+      "keyframes": [
+        "dd0e4a21-39ee-4093-8738-ee6842664288",
+        "852723ce-736a-4db5-ac6e-4908e63022e0"
+      ],
+      "locked": false,
+      "name": "Foreground Front",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "containerType": "FOREGROUND_FRONT_CONTAINER"
+        }
+      },
+      "type": "CONTAINER"
+    },
+    {
+      "$id": "466d2df5-9689-4544-ba76-195dafbfb6ff",
+      "hidden": false,
+      "keyframes": [
+        "7000154a-73ac-4029-81c9-05637b1c7c73",
+        "81b27a7c-5f75-44fc-93c9-c090fe67e52a"
+      ],
+      "locked": false,
+      "name": "Background Behind",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "containerType": "BACKGROUND_BEHIND_CONTAINER"
+        }
+      },
+      "type": "CONTAINER"
     }
   ],
   "paletteMap": {
@@ -1130,7 +1192,7 @@
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "objectType": "STAGE",
-      "version": "0.1.0"
+      "version": "0.3.0"
     }
   },
   "plugins": [
