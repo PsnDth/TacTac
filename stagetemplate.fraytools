@@ -27,6 +27,6 @@
   "snapToPixel": true,
   "templateDescription": "Sample stage project for Fraymakers.",
   "templateName": "Fraymakers Stage Template",
-  "templateVersion": "0.1.0",
+  "templateVersion": "0.2.0",
   "version": 12
 }
