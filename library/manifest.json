@@ -1,16 +1,22 @@
 {
-  "resourceId": "stagetemplate",
+  "resourceId": "tactac",
   "content": [{
-    "id": "stagetemplate",
-    "name": "Stage Template",
-    "description": "An example stage for Fraymakers.",
+    "id": "tactac",
+    "name": "#Tac Tac",
+    "description": "2-plat layout, platforms move around stage if anyone holds assist+grab during intro",
     "type": "stage",
-    "objectStatsId": "stagetemplateStageStats",
-    "scriptId": "stagetemplateScript",
-    "music": [{ "namespace": "public", "resourceId": "bgm_welkinwonderland", "contentId": "bgm_welkinwonderland" },{"namespace": "public", "resourceId": "bgm_impetusremix", "contentId": "bgm_impetusremix" },{"namespace": "public", "resourceId": "bgm_superfunk", "contentId": "bgm_superfunk" }],
+    "objectStatsId": "tactacStageStats",
+    "scriptId": "tactacScript",
+    "music": [
+      { "namespace": "public", "resourceId": "bgm_wherethepaingrowsremix", "contentId": "bgm_wherethepaingrowsremix" },
+      { "namespace": "public", "resourceId": "bgm_blobbers", "contentId": "bgm_blobbers" },
+      { "namespace": "public", "resourceId": "bgm_fightandflight", "contentId": "bgm_fightandflight" },
+      { "namespace": "public", "resourceId": "bgm_impetusremix", "contentId": "bgm_impetusremix" },
+      { "namespace": "public", "resourceId": "bgm_theheart", "contentId": "bgm_theheart" }
+    ],
     "metadata": {
       "stage":{
-        "hazardVariation": "local::stagetemplate.stagetemplatehazards"
+        "hazardVariation": "local::tactac.tactachazards"
       },
       "ui":{
         "entityId":"menu",
@@ -25,18 +31,24 @@
       }
     }
   },{
-    "id": "stagetemplatehazards",
-    "name": "Stage Template",
-    "description": "An example stage for Fraymakers.",
+    "id": "tactachazards",
+    "name": "Tac Tac",
+    "description": "Turn around cancel mode! Press the opposite direction during a move to cancel it and turn around. Can turnaround freely in any actionable state except dash (to allow dash dancing). Platforms move around stage if anyone holds assist+grab during intro",
     "type": "stage",
-    "objectStatsId": "stagetemplateStageStats",
-    "scriptId": "stagetemplateScript",
-    "music": [{ "namespace": "public", "resourceId": "bgm_welkinwonderland", "contentId": "bgm_welkinwonderland" },{"namespace": "public", "resourceId": "bgm_impetusremix", "contentId": "bgm_impetusremix" },{"namespace": "public", "resourceId": "bgm_superfunk", "contentId": "bgm_superfunk" }]
+    "objectStatsId": "tactacStageStats",
+    "scriptId": "tactacScript",
+    "music": [
+      { "namespace": "public", "resourceId": "bgm_wherethepaingrowsremix", "contentId": "bgm_wherethepaingrowsremix" },
+      { "namespace": "public", "resourceId": "bgm_blobbers", "contentId": "bgm_blobbers" },
+      { "namespace": "public", "resourceId": "bgm_fightandflight", "contentId": "bgm_fightandflight" },
+      { "namespace": "public", "resourceId": "bgm_impetusremix", "contentId": "bgm_impetusremix" },
+      { "namespace": "public", "resourceId": "bgm_theheart", "contentId": "bgm_theheart" }
+    ]
   },
   {
-    "id": "stagetemplateMovingPlatform",
+    "id": "tactacMovingPlatform",
     "type": "structure",
-    "objectStatsId": "stagetemplateMovingPlatformStats",
-    "scriptId": "stagetemplateMovingPlatformScript"
+    "objectStatsId": "tactacMovingPlatformStats",
+    "scriptId": "tactacMovingPlatformScript"
   }]
 }

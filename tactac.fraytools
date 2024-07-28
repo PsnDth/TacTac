@@ -21,7 +21,7 @@
   "publishFolders": [
     {
       "id": "build0",
-      "path": "./build"
+      "path": "../../../../../Program Files (x86)/Steam/steamapps/common/Fraymakers/custom/TacTac"
     }
   ],
   "snapToPixel": true,

@@ -1,12 +1,12 @@
 {
   "export": true,
-  "guid": "e56119e7-0f92-48af-9f52-2299a67504ed",
-  "id": "stagetemplateScript",
+  "guid": "dd6bcb7b-ade9-4b9d-9e34-34ac6d9c6823",
+  "id": "tactacScript",
   "language": "",
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "objectType": "STAGE",
-      "version": "0.1.0"
+      "version": "0.3.0"
     }
   },
   "plugins": [

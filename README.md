@@ -1,21 +1,28 @@
-# Fraymakers Stage Template for FrayTools
+# TacTac
 
-## Overview
+Available on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3293881611)
 
-This is the FrayTools project for the Fraymakers Stage Template which demonstrates how to create a basic stage for Fraymakers. You must have FrayTools installed on your system in order to view and modify this project.
+## About the Stage
+Just a mix of comp. stage stuff that I like all in one place so:
+ - Pokemon Colosseum (SSF2)
+ - Tower of Salvation (SSF2)
+ - Yoshi's Story, but only the randall part!
 
-## Downloading FrayTools
+## Hazards ON
+This is the main event, press the opposite direction during basically animation to cancel it. If you cancel 4 attacks very quickly, you'll be blocked from cancelling for a short time. Cancelling shield and ledge options also count towards this limit. You don't get any resources back when cancelling so be careful when done offstage.
 
-Download FrayTools for your operating system here: [https://fraytools.com/downloads/](https://fraytools.com/downloads/)
+## Credits
+Thanks to Kactus Guy and J-Dudd for trying it out and giving feedback. Base stage stuff was based on a trace of a trace of Pepperpain so shout out to Carolyn Jong
 
-Then download the latest version of the following FrayTools Plugins below:
-* Fraymakers Exporter:
-[https://github.com/Fraymakers/content-exporter-plugin/releases](https://github.com/Fraymakers/content-exporter-plugin/releases)
-* Fraymakers Metadata Definitions:
-[https://github.com/Fraymakers/metadata-plugin/releases](https://github.com/Fraymakers/metadata-plugin/releases)
-* Api Types (Optional but highly recommended):
-[https://github.com/Fraymakers/api-types-plugin/releases](https://github.com/Fraymakers/api-types-plugin/releases)
+## Other stuff
+This is roughly a speed run project, altho took a break after releasing for initial testing. Kinda stopped keeping track properly after that. overall time breakdown:
 
-Finally, open the `.fraytools` project file in FrayTools and you should be good to go!
+ART: 7 hours + 4ish hours of BG elements
 
-For additional setup instructions, check out our [Deep Dive Guide](https://docs.google.com/document/d/1o6CE04FRaqQyksD2uX7zxOQXYiZ_M2YCwtqK0mMoARY/edit?usp=sharing).
+CODE: 4 hours + 2 hours of fine tuning and stuff
+
+VIDEO: 4 hours
+
+I don't remember how long I spent playtesting, probably like 4-ish hours but imma not count it bc it was mostly just fooling around outside. Video playtesting is included in that time
+
+I may go back to fix stuff like some of the art. It currently just uses in-game music, so if you have suggestions, send me the audio file on discord (@psndth)
